@@ -1,0 +1,8 @@
+/* Do not delete this at any time
+It is crucial for alligning components on the page 
+*/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}

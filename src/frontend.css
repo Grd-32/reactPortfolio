@@ -1,0 +1,237 @@
+/* Externally linked to frontend.js 
+to provide styling features */
+
+.webDev {
+    height: 100vh;
+    display: grid;
+    padding-top: 6.5em;
+    padding-bottom: 6.5em;
+    grid-template-columns: auto;
+    gap: 30px;
+    background-color: black;
+}
+
+/* double class styling */
+.frontEnd, .backEnd {
+    display: flex;
+    justify-content: space-around;
+    row-gap: 30px;
+    padding: 0 15em;
+}
+
+.frontend-content h3 {
+    color: purple;
+}
+
+.subTitle {
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px solid purple;
+}
+
+.frontend-img {
+    width: 50%;
+}
+
+.frontend-img img {
+    width: 400px;
+}
+
+.frontend-content {
+    width: 50%;
+    color: #ffff;
+    /* multigradient colors */
+    background: linear-gradient(to right, black, rgb(18, 18, 218) , black, black);
+}
+
+.aboutTag h3 {
+    position: relative;
+    top: 50%;
+}
+
+@media screen and (max-width: 360px) {
+    .webDev {
+        box-sizing: border-box;
+        height: fit-content;
+        display: grid;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        grid-template-columns: auto;
+        gap: 3px;
+        overflow-x: hidden;
+    }
+
+    .frontEnd, .backEnd {
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+    }
+    
+    .frontEnd {
+        background-image: url(./images/frontendTwo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        row-gap: 0;
+        padding: 0;
+    }
+
+    .backEnd {
+        background-image: url(./images/backend2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        row-gap: 0;
+        padding: 0;
+    }
+
+    .frontend-content {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+        padding: 20px;
+        padding-right: 15px;
+    }
+
+    img {
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 5px solid purple;
+    }
+    
+    .frontend-img img {
+        display: none;
+    }
+
+    .frontend-content h3 {
+        font-size: 15px;
+    }
+
+    .frontend-content p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .webDev {
+        box-sizing: border-box;
+        height: fit-content;
+        display: grid;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        grid-template-columns: auto;
+        gap: 3px;
+        overflow-x: hidden;
+    }
+
+    .frontEnd, .backEnd {
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+    }
+    
+    .frontEnd {
+        background-image: url(./images/frontendTwo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        row-gap: 0;
+        padding: 0;
+    }
+
+    .backEnd {
+        background-image: url(./images/backend2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        row-gap: 0;
+        padding: 0;
+    }
+
+    .frontend-content {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+        padding: 20px;
+        padding-right: 15px;
+    }
+
+    img {
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 5px solid purple;
+    }
+    
+    .frontend-img img {
+        display: none;
+    }
+
+    .frontend-content h3 {
+        font-size: 15px;
+    }
+
+    .frontend-content p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .webDev {
+        box-sizing: border-box;
+        height: fit-content;
+        display: grid;
+        margin: 30px auto;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        grid-template-columns: auto;
+        gap: 10px;
+        overflow-x: hidden;
+    }
+
+    .frontEnd, .backEnd {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+    }
+    
+    .frontEnd {
+        background-image: url(./images/frontendTwo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        row-gap: 5px;
+        margin: 30px;
+    }
+
+    .backEnd {
+        background-image: url(./images/backend2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 30px;
+        row-gap: 5px;
+    }
+
+    .frontend-content {
+        height: 100%;
+        width: fit-content;
+        background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+        padding: 70px;
+        margin-bottom: -10px;
+    }
+
+    img {
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: 5px solid purple;
+    }
+    
+    .frontend-img img {
+        display: none;
+    }
+
+    .frontend-content h3 {
+        font-size: 17px;
+    }
+
+    .frontend-content p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,28 @@
+.socialLinks {
+    position: relative;
+    width: 30px;
+    top: 26vh;
+    left: -20vw;
+    padding: 4px;
+    /* display: grid; */
+    display: none;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    background: linear-gradient(to bottom, purple, white, blue);
+    color: black;
+    font-weight: bolder;
+
+}
+
+@media screen and (max-width: 360px) {
+    .socialLinks {
+        display: none;
+    }
+}
+@media screen and (max-width: 520px) {
+    .socialLinks {
+        display: none;
+    }
+}

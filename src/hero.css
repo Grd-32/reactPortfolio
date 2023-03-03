@@ -1,0 +1,212 @@
+.heroContainer {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(./images/Featured-Image-Windows-11-10-Dark-Themes-Turn-On-Off.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.heroContent {
+    position: relative;
+    top: -70px;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    margin-top: 20px;
+    background: linear-gradient(to left, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7));
+}
+
+.heroFrame {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h3 {
+    font-size: 23px;
+    background: linear-gradient(to right, purple, white, blue);
+    background-clip: text;
+    color: transparent;
+    line-height: 2.5rem;
+    text-indent: 20px;
+}
+
+.heroContent button {
+    width: 180px;
+    height: 40px;
+    padding: 6px;
+    background: linear-gradient(to left, blue, purple);
+    color: #ffff;
+    margin: 40px auto;
+    font-size: 18px;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .heroContainer {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .heroContent {
+        width: fit-content;
+        position: relative;
+        top: -1px;
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 15px;
+        line-height: normal;
+        padding-top: 30px;
+    }
+
+    .heroContent button {
+        position: relative;
+        top: 5px;
+        width: 100px;
+        height: 20px;
+        padding: 3px;
+        background: linear-gradient(to left, blue, purple);
+        color: #ffff;
+        margin: 10px auto;
+        font-size: 10px;
+    }
+
+    .heroFrame {
+        left: 22%;
+    }
+
+    .texts {
+        width: 100%;
+        margin-top: 70px;
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .heroContainer {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .heroContent {
+        width: fit-content;
+        position: relative;
+        top: -1px;
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 15px;
+        line-height: normal;
+        padding-top: -30px;
+    }
+
+    .heroContent button {
+        position: relative;
+        top: 5px;
+        width: 100px;
+        height: 20px;
+        padding: 3px;
+        background: linear-gradient(to left, blue, purple);
+        color: #ffff;
+        margin: 10px auto;
+        font-size: 10px;
+    }
+
+    .heroFrame {
+        left: 22%;
+    }
+
+    .texts {
+        width: 100%;
+        margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 920px) {
+    .heroContainer {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .heroContent {
+        width: fit-content;
+        position: relative;
+        top: -1px;
+        height: 80vh;
+        padding-bottom: 30px;
+    }
+ 
+    /* h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 15px;
+        line-height: normal;
+        padding-top: 30px;
+    } */
+
+    .heroContent button {
+        position: relative;
+        top: 5px;
+        width: 150px;
+        height: 25px;
+        padding: 4px;
+        background: linear-gradient(to left, blue, purple);
+        color: #ffff;
+        margin: 10px auto;
+        font-size: 15px;
+    } 
+
+    .heroFrame {
+        left: 22%;
+    }
+
+    .texts {
+        width: 100%;
+        margin-top: 40px;
+    } 
+  }

@@ -1,0 +1,150 @@
+.portfolio {
+    background-color: black;
+    color: #ffff;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.welcomePort {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 30px;
+}
+
+.messageImg {
+    width: 400px;
+    height: 400px;
+}
+
+.portMessage {
+    background: radial-gradient(black,purple, rgb(82, 82, 172) , black 60%);
+    /* box-shadow: 0 0 40px 20px #ffff, 0 0 100px 50px #0ff; */
+}
+
+.portImg {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 30px;
+}
+
+img {
+    width: 100%;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 360px) {
+    .portfolio {
+        grid-template-columns: auto;
+        gap: 10px;
+        margin: 50px auto;
+    }
+
+    .portMessage {
+        width: 100%;
+        background: black;
+        text-align: center;
+        padding-left: -20px;
+    }
+
+    .portMessage h3 {
+        font-size: 15px;
+    }
+
+    .portImg {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .messageImg {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .portMessage p {
+        font-size: 13px;
+    }
+
+    .portMessage small {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .portfolio {
+        grid-template-columns: auto;
+        gap: 10px;
+        margin: 50px auto;
+    }
+
+    .portMessage {
+        width: 100%;
+        background: black;
+        text-align: center;
+        padding-left: -20px;
+    }
+
+    .portMessage h3 {
+        font-size: 15px;
+    }
+
+    .portImg {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
+
+    .messageImg {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .portMessage p {
+        font-size: 13px;
+    }
+
+    .portMessage small {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .portfolio {
+        grid-template-columns: auto auto;
+        gap: 10px;
+        margin: 50px auto;
+        padding: 30px;
+    }
+
+    .portMessage {
+        width: 100%;
+        background: black;
+        text-align: center;
+        padding-left: -20px;
+    }
+
+    .portMessage h3 {
+        font-size: 15px;
+    }
+
+    .portImg {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .messageImg {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .portMessage p {
+        font-size: 13px;
+    }
+
+    .portMessage small {
+        font-size: 10px;
+    }
+}

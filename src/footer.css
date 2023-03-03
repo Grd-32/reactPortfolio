@@ -1,0 +1,50 @@
+.myFooter {
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footerCon {
+    background: linear-gradient(to right, purple, white, blue);
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px
+    ;
+}
+
+@media screen and (max-width: 360px) {
+    .socialLinks {
+        display: flex;
+    }
+
+    .footerCon {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+    .footerCon small {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .socialLinks {
+        display: flex;
+    }
+
+    .footerCon {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+    .footerCon small {
+        font-size: 10px;
+    }
+}
